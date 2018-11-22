@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>TRIVIA1</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <title>¡Trivia!</title>             
+  </head>
+  <body style="background-color:#00FFBD  ;">
+    
+    <div id="inicio">
+     <h1>¡BIENVENIDO!</h1>
+     <p>¿Cúanto sabes de los Modismos de Latinoamérica? </p>
+     <p2>¡Ingresa tu Nombre y Averígualo! </p2> <br>
+     <input type="text" id="nombre"><br>
+     <button onclick="bienvenida()" class=botonPersonalizado>Jugar</button> 
+       </div>
+
+      <div id="categoria">
+      <p id="nombreusuario"></p>
+      <br> </div>
+        
+    <div id="oculto" style= "display:none">  
+      
+    <button onclick="elegircategoria()" type="button">Chile</button>
+     
+      <button type="button">Venezuela</button>
+    </div>
+    
+    
+<div id="preguntas1"style="display:none"> 
+<form name="preguntasChile">
+  <p>1. En Chile "bakan" significa que esta : </p>
+  
+  	<input type="radio" value="Malo" name="1" >A. Malo <br>
+		<input type="radio" value="Genial" name="1"/>B. Genial.<br>
+  	<input type="radio" value="Triste" name="1" />C. Triste.<br>
+		<input type="radio" value="Aburrido" name="1" />D. Aburrido.
+  
+    <p>2. En Chile el "Po" significa : </p>
+  
+ 	<input type="radio" value="Si" name="2" >Si.<br>
+		<input type="radio" value="Pues" name="2"/>Pues.<br>
+  	<input type="radio" value="Claro" name="2" />Claro.<br>
+		<input type="radio" value="No" name="2" />No.
+  
+    <p>3. En Chile hacer una Vaca es : </p>
+  
+	<input type="radio" value="Juntar dinero" name="3">Juntar dinero. <br>
+		<input type="radio" value="Dibujar una vaca" name="3"/>Dibujar una vaca.<br>
+  	<input type="radio" value="Posicion Corporal" name="3" />Posicion corporal.<br>
+		<input type="radio" value="Emitir un ruido." name="3" />Emitir un ruido.<br>
+
+   <button onclick="comprobarRadio(respuestaCorrecta)" type="button" Value="Corregir">Enviar Respuestas</button>
+  
+   <button onclick="location.reload();">Jugar otra vez!!</button>
+  
+</div> 
+
+<div id="solucion"></div>
+  
+ 
+    </body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

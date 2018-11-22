@@ -1,0 +1,81 @@
+h1 {
+  /*Color bienvenido*/
+  color: white; 
+  
+  /*sombra bienvenido*/
+  text-shadow: 3px 3px 3px black; 
+  
+  /*gradiante cuadro bienvenido*/
+  background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.7)); 
+  
+  /*alto o relleno de cuadro bienvenido*/
+  padding: 15px; 
+  
+  /*Sombra y luz del cuadrado bienvenidd*/
+  box-shadow: inset 4px 6px 5px rgba(0,0,5,0.8), inset -2px -2px 5px rgba(255,255,255,0.9); 
+  
+  /*borde punteado del cuadro*/
+  border: 2px dashed yellow; 
+}
+ 
+/*letra remarcada*/
+p{  
+  font-weight: bold;
+  }
+
+/*Estilo cursiva*/
+p2{
+  font-style: italic;
+}
+#inicio{
+    color: black;
+    text-align: center; 
+  }
+
+#nombre{
+    color: black;
+    text-align: center; 
+  }
+
+#oculto{
+    color: black;
+    text-align: center;
+    }
+/*Diseño del boton jugar*/
+.botonPersonalizado {
+    cursor: pointer;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 9px;
+    font-size: 0,6rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 18px;
+    background-color: #9E1DE2;
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)                         50%,rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -3px -2px 3px rgba(0, 0,                  0, .6);
+}
+/*Hacer que boton jugar cambie a rosado*/
+.botonPersonalizado:hover {
+   background-color: #FF00C1  ;
+   color: white;
+  }
+/*Diseño del boton enviar*/
+button {
+    cursor: pointer;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 0,6rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 18px;
+    background-color: #9E1DE2;
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)                         50%,rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),inset -3px -2px 3px rgba(0, 0,                  0, .6);
+}
+
+#nombreusuario{
+    color: black;
+    text-align: center; 
+  }
